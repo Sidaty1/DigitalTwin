@@ -1,11 +1,7 @@
-numpy 
-Sofa 
-SofaRuntime
-SofaCaribou 
-MeshSkeletonizationPlugin 
-vedo 
-math
-pyquaternion
-random
-sys
+numpy
+vedo
 matplotlib
+pyquaternion
+Sofa
+SofaCaribou
+MeshSkeletonizationPlugin

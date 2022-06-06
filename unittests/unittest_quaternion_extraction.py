@@ -21,10 +21,10 @@ if __name__ == '__main__':
 
 
     # Input mesh 
-    mesh = "../data/mesh/processed_porteveine.stl"
+    mesh = "./data/mesh/processed_porteveine.stl"
 
     # Input text file where centerlines will be stored
-    skeleton_file = "../data/skeleton/output_skeleton.txt"
+    skeleton_file = "./data/skeleton/output_skeleton.txt"
 
     # Structuring centerlines into a list of polylines 
     basedt = BaseDigitalTwin()
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     vessel = basedt.getSkeletonData(skeleton_file)
 
     # Plotting specifications
-    fig = plt.figure(figsize=(20, 15))
+    fig = plt.figure(figsize=(60, 60))
     ax = fig.add_subplot(projection='3d')
     ax.set_xlabel('axe X')
     ax.set_ylabel('axe Y')

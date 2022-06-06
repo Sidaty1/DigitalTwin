@@ -14,11 +14,11 @@ if __name__ == '__main__':
         This code generates the centerlines of a given mesh, it plots the centerlines. 
     """
 
-    # Input Mesh: Obj/VTK or other 
-    #mesh = "../data/mesh/vessels_refined.obj"
-    mesh = "../data/mesh/processed_porteveine.stl"
+    # Input Mesh: Obj/VTK or other 1
+    #mesh = "./data/mesh/vessels_refined.obj"
+    mesh = "./data/mesh/processed_porteveine.stl"
     # Input text file where centerlines will be stored
-    skeleton_file = "../data/skeleton/output_skeleton.txt"
+    skeleton_file = "./data/skeleton/output_skeleton.txt"
 
     print("Plotting: ")
     print("1 - Only centerlines ")

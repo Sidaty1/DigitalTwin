@@ -17,10 +17,10 @@ if __name__ == '__main__':
     """
 
     # Input mesh 
-    mesh = "../data/mesh/processed_porteveine.stl"
+    mesh = "./data/mesh/processed_porteveine.stl"
 
     # Input text file where centerlines will be stored
-    skeleton_file = "../data/skeleton/output_skeleton.txt"
+    skeleton_file = "./data/skeleton/output_skeleton.txt"
 
     # Structuring centerlines into a list of polylines 
     baseDT = BaseDigitalTwin()
