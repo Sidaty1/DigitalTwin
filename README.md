@@ -12,7 +12,7 @@ Vessels are processed as set of beams, each modeled as a Finite Element Model. T
 
 ![Vessel tree model](./data/img/vessel_processing.png)
 
-## Parenchyma madel 
+## Parenchyma model 
 
 Parenchyma domain is meshed with hexahedron elements and modeled using a Finite element model using a Hyperelastic material, see image bellow. 
 
